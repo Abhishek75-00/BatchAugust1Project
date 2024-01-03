@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxBrowser(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="verification.Assertions">
+        <methods>
+          <include name="ToVerifyTheReports"/>
+          <include name="closebrowser"/>
+          <include name="LoginToapplication"/>
+          <include name="Logout"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- verification.Assertions -->
+    </classes>
+  </test> <!-- FirefoxBrowser(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
